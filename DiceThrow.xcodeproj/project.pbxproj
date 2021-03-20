@@ -13,6 +13,9 @@
 		366F2B2B2605DF2B006B7416 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366F2B2A2605DF2B006B7416 /* Preview Assets.xcassets */; };
 		366F2B2D2605DF2B006B7416 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F2B2C2605DF2B006B7416 /* Persistence.swift */; };
 		366F2B302605DF2B006B7416 /* DiceThrow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 366F2B2E2605DF2B006B7416 /* DiceThrow.xcdatamodeld */; };
+		366F2B392605DF6E006B7416 /* ContentViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F2B382605DF6E006B7416 /* ContentViewDefault.swift */; };
+		366F2B3C2605E0E0006B7416 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F2B3B2605E0E0006B7416 /* DiceView.swift */; };
+		366F2B3F2605E104006B7416 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F2B3E2605E104006B7416 /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		366F2B2C2605DF2B006B7416 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		366F2B2F2605DF2B006B7416 /* DiceThrow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DiceThrow.xcdatamodel; sourceTree = "<group>"; };
 		366F2B312605DF2B006B7416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366F2B382605DF6E006B7416 /* ContentViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewDefault.swift; sourceTree = "<group>"; };
+		366F2B3B2605E0E0006B7416 /* DiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceView.swift; sourceTree = "<group>"; };
+		366F2B3E2605E104006B7416 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				366F2B232605DF2A006B7416 /* DiceThrowApp.swift */,
 				366F2B252605DF2A006B7416 /* ContentView.swift */,
+				366F2B3B2605E0E0006B7416 /* DiceView.swift */,
+				366F2B3E2605E104006B7416 /* ResultsView.swift */,
+				366F2B382605DF6E006B7416 /* ContentViewDefault.swift */,
 				366F2B272605DF2B006B7416 /* Assets.xcassets */,
 				366F2B2C2605DF2B006B7416 /* Persistence.swift */,
 				366F2B312605DF2B006B7416 /* Info.plist */,
@@ -145,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				366F2B2D2605DF2B006B7416 /* Persistence.swift in Sources */,
+				366F2B3C2605E0E0006B7416 /* DiceView.swift in Sources */,
 				366F2B262605DF2A006B7416 /* ContentView.swift in Sources */,
+				366F2B392605DF6E006B7416 /* ContentViewDefault.swift in Sources */,
+				366F2B3F2605E104006B7416 /* ResultsView.swift in Sources */,
 				366F2B242605DF2A006B7416 /* DiceThrowApp.swift in Sources */,
 				366F2B302605DF2B006B7416 /* DiceThrow.xcdatamodeld in Sources */,
 			);
